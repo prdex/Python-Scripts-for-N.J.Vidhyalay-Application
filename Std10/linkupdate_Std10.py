@@ -10,8 +10,8 @@ d1 = today.strftime("%d/%m/%Y")
 
 string1 = "/std10A/"
 
-for x in range(2):
-    firebaseref.put(string1+'linkdetails/2','link','https://us02web.zoom.us/j/81139258056?pwd=NUxuOUNRYkh4Q2xIYmsxbVdoaGpndz09')
+for x in range(2):                                  
+    firebaseref.put(string1+'linkdetails/2','link','https://us02web.zoom.us/j/81857001326?pwd=bUpmdnN3MzFTaEtmUzFicVVtWW5RUT09')
     firebaseref.put(string1+'linkdetails/2','date', d1)
-    firebaseref.put(string1+'linkdetails/2','subject','અંગ્રેજી')
+    firebaseref.put(string1+'linkdetails/2','subject','વિજ્ઞાન')
     string1 = "/std10B/"
