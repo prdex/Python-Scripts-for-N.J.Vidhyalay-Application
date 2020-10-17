@@ -5,9 +5,10 @@ import sys
 
 firebaseref = firebase.FirebaseApplication("https://njvidhyalay-4f0ea.firebaseio.com")
 
-english = "%E0%AA%85%E0%AA%82%E0%AA%97%E0%AB%8D%E0%AA%B0%E0%AB%87%E0%AA%9C%E0%AB%80/"
-gujarati = "%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4%E0%AB%80/"
-eco     = "%E0%AA%85%E0%AA%B0%E0%AB%8D%E0%AA%A5%E0%AA%B6%E0%AA%BE%E0%AA%B8%E0%AB%8D%E0%AA%A4%E0%AB%8D%E0%AA%B0/"
+english   = "%E0%AA%85%E0%AA%82%E0%AA%97%E0%AB%8D%E0%AA%B0%E0%AB%87%E0%AA%9C%E0%AB%80/"
+gujarati  = "%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4%E0%AB%80/"
+eco       = "%E0%AA%85%E0%AA%B0%E0%AB%8D%E0%AA%A5%E0%AA%B6%E0%AA%BE%E0%AA%B8%E0%AB%8D%E0%AA%A4%E0%AB%8D%E0%AA%B0/"
+tatvagyan = "%E0%AA%A4%E0%AA%A4%E0%AB%8D%E0%AA%B5%E0%AA%9C%E0%AB%8D%E0%AA%9E%E0%AA%BE%E0%AA%A8" 
 
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
@@ -66,4 +67,18 @@ for x in range(2):
         firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'subject',subjectvar)
         stringdelete = result["name"]
         firebaseref.delete(standard1+'assignmentsubject/'+eco+firstelementindex, stringdelete)  
+        standard1 = "/std11C/"
+    
+    elif subjectindex == "4":
+        result = firebaseref.get(standard1+"assignmentsubject/"+tatvagyan,'')
+        dict_items = result.items()
+        firstelement = list(dict_items)[:1]
+        firstelementindex = int(firstelement[0][0])-1
+        firstelementindex = str(firstelementindex)
+        result = firebaseref.post(standard1+'assignmentsubject/'+tatvagyan+firstelementindex, data)
+        firebaseref.put(standard1+'assignmentsubject/'+tatvagyan+firstelementindex,'date',d1)
+        firebaseref.put(standard1+'assignmentsubject/'+tatvagyan+firstelementindex,'status',statusvar)
+        firebaseref.put(standard1+'assignmentsubject/'+tatvagyan+firstelementindex,'subject',subjectvar)
+        stringdelete = result["name"]
+        firebaseref.delete(standard1+'assignmentsubject/'+tatvagyan+firstelementindex, stringdelete)  
         standard1 = "/std11C/"
