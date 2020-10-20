@@ -8,6 +8,8 @@ firebaseref = firebase.FirebaseApplication("https://njvidhyalay-4f0ea.firebaseio
 english = "%E0%AA%85%E0%AA%82%E0%AA%97%E0%AB%8D%E0%AA%B0%E0%AB%87%E0%AA%9C%E0%AB%80/"
 gujarati = "%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4%E0%AB%80/"
 eco     = "%E0%AA%85%E0%AA%B0%E0%AB%8D%E0%AA%A5%E0%AA%B6%E0%AA%BE%E0%AA%B8%E0%AB%8D%E0%AA%A4%E0%AB%8D%E0%AA%B0/"
+tatva   = "%E0%AA%A4%E0%AA%A4%E0%AB%8D%E0%AA%B5%E0%AA%9C%E0%AB%8D%E0%AA%9E%E0%AA%BE%E0%AA%A8"
+mano    = "%E0%AA%AE%E0%AA%A8%E0%AB%8B%E0%AA%B5%E0%AA%BF%E0%AA%9C%E0%AB%8D%E0%AA%9E%E0%AA%BE%E0%AA%A8"
 
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
