@@ -13,7 +13,7 @@ today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 
 statusvar = "333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333"
-subjectvar = "testsubject"
+subjectvar = "પ્રકરણ-૬ સ્વાધ્યાય પ્ર.૧ (૧,૨,૩), પ્ર.૨ (૧) અને પાઠ પરિચય ફકરા માંથી ૧૦ પ્રશ્નો"
 
 data = {
     'date':d1,
@@ -47,9 +47,9 @@ for x in range(2):
         firstelementindex = int(firstelement[0][0])-1
         firstelementindex = str(firstelementindex)
         result = firebaseref.post(standard1+'assignmentsubject/'+gujarati+firstelementindex, data)
-        firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'date',d1)
-        firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'status',statusvar)
-        firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'subject',subjectvar)
+        firebaseref.put(standard1+'assignmentsubject/'+gujarati+firstelementindex,'date',d1)
+        firebaseref.put(standard1+'assignmentsubject/'+gujarati+firstelementindex,'status',statusvar)
+        firebaseref.put(standard1+'assignmentsubject/'+gujarati+firstelementindex,'subject',subjectvar)
         stringdelete = result["name"]
         firebaseref.delete(standard1+'assignmentsubject/'+gujarati+firstelementindex, stringdelete)  
         standard1 = "/std11C/"
@@ -61,9 +61,9 @@ for x in range(2):
         firstelementindex = int(firstelement[0][0])-1
         firstelementindex = str(firstelementindex)
         result = firebaseref.post(standard1+'assignmentsubject/'+eco+firstelementindex, data)
-        firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'date',d1)
-        firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'status',statusvar)
-        firebaseref.put(standard1+'assignmentsubject/'+english+firstelementindex,'subject',subjectvar)
+        firebaseref.put(standard1+'assignmentsubject/'+eco+firstelementindex,'date',d1)
+        firebaseref.put(standard1+'assignmentsubject/'+eco+firstelementindex,'status',statusvar)
+        firebaseref.put(standard1+'assignmentsubject/'+eco+firstelementindex,'subject',subjectvar)
         stringdelete = result["name"]
         firebaseref.delete(standard1+'assignmentsubject/'+eco+firstelementindex, stringdelete)  
         standard1 = "/std11C/"

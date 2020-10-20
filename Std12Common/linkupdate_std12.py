@@ -8,10 +8,12 @@ firebaseref = firebase.FirebaseApplication("https://njvidhyalay-4f0ea.firebaseio
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 
-string1 = "/std12A/"
+string1    = "/std12A/"
+linkvar    = "https://us02web.zoom.us/j/82297099775?pwd=TTdiZy9IcHNCZ0NLTldmN1RhZ0U4QT09"
+subjectvar = "ગુજરાતી"
 
 for x in range(2):
-    firebaseref.put(string1+'linkdetails/1','link','https://us02web.zoom.us/j/84224407442?pwd=eTZPL1FKRzBOemU1U1NPaThZSEd4Zz09')
+    firebaseref.put(string1+'linkdetails/1','link', linkvar)
     firebaseref.put(string1+'linkdetails/1','date', d1)
-    firebaseref.put(string1+'linkdetails/1','subject','અર્થશાસ્ત્ર')
+    firebaseref.put(string1+'linkdetails/1','subject', subjectvar)
     string1 = "/std12C/"
