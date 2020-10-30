@@ -12,8 +12,8 @@ eco     = "%E0%AA%85%E0%AA%B0%E0%AB%8D%E0%AA%A5%E0%AA%B6%E0%AA%BE%E0%AA%B8%E0%AB
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 
-linkvar = "https://drive.google.com/uc?id=14EPgaMcwTCGDUaeBVywduFkm8Uba-TNF&export=download"
-namevar = "ગુજરાતી પ્રકરણ-૬"
+linkvar = "https://drive.google.com/uc?id=1gnEgVwrLIOYHJz65uwuXVd_zaz-saKO0&export=download"
+namevar = "Flamingo Read-2"
 
 data = {
     'downloadlink':linkvar,

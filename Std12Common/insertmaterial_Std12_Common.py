@@ -12,8 +12,8 @@ eco     = "%E0%AA%85%E0%AA%B0%E0%AB%8D%E0%AA%A5%E0%AA%B6%E0%AA%BE%E0%AA%B8%E0%AB
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 
-linkvar = "https://drive.google.com/uc?id=11Yg26IGrw1RoQIeJuCkzVfZcJSZkqECZ&export=download"
-namevar = "ગુજરાતી પ્ર-૯"
+linkvar = "https://drive.google.com/uc?id=1Cobeg_eMKGLTX42Oj8w7ziC0oXD0MX4u&export=download"
+namevar = "ગુજરાતી પ્ર-૧૦"
 
 data = {
     'downloadlink':linkvar,

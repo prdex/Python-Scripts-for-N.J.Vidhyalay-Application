@@ -9,8 +9,8 @@ today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 
 string1    = "/std12A/"
-linkvar    = "https://us02web.zoom.us/j/82297099775?pwd=TTdiZy9IcHNCZ0NLTldmN1RhZ0U4QT09"
-subjectvar = "ગુજરાતી"
+linkvar    = "https://us02web.zoom.us/j/86168122224?pwd=S3FjT01JQldHMmkrQVhHYmwycXNMQT09"
+subjectvar = "અંગ્રેજી"
 
 for x in range(2):
     firebaseref.put(string1+'linkdetails/1','link', linkvar)

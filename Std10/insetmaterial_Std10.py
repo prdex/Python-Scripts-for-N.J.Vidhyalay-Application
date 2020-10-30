@@ -7,8 +7,8 @@ gujarati = "%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4%E0%AB%80/"
 science = "%E0%AA%B5%E0%AA%BF%E0%AA%9C%E0%AB%8D%E0%AA%9E%E0%AA%BE%E0%AA%A8/"
 scoial = "%E0%AA%B8%E0%AA%BE%E0%AA%AE%E0%AA%BE%E0%AA%9C%E0%AA%BF%E0%AA%95%20%E0%AA%B5%E0%AA%BF%E0%AA%9C%E0%AB%8D%E0%AA%9E%E0%AA%BE%E0%AA%A8/"
 
-linkvar  = "https://drive.google.com/uc?id=1xUnAcOiLc1XrLLsmzpj_wJms_ke2CFEJ&export=download"
-namevar = "વિજ્ઞાન પ્રકરણ-૧૦ ૧૭-૧૦-૨૦૨૦"
+linkvar  = "https://drive.google.com/uc?id=1EWOZY-5Gmj46QEY82OLEOMu1sTgiTqXI&export=download"
+namevar = "સમાજ પ્રકરણ-૨"
 
 data = {
     'downloadlink':linkvar,

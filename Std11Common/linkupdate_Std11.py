@@ -8,7 +8,7 @@ firebaseref = firebase.FirebaseApplication("https://njvidhyalay-4f0ea.firebaseio
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 
-linkvar = "https://us05web.zoom.us/j/88010521125?pwd=ako1cEE5VHZleU50dVVyOHUrcHduQT09"
+linkvar = "https://us02web.zoom.us/j/86750828753?pwd=c0pldlJDcHpSMEp3SHQvVThvWTRlQT09"
 subjectvar = "ગુજરાતી"
 
 string1 = "/std11A/"
